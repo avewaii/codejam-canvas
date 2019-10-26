@@ -1,0 +1,149 @@
+* {
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.btn-hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    top: 0px;
+}
+
+.top-menu {
+    background-color: aqua;
+}
+
+.top-menu span {
+    position: absolute;
+    left: 80px; 
+    bottom: 15px;
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.additional-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 12px;
+    height: 24px;
+    right: 16px;
+    bottom: 16px;
+}
+
+main {
+    background-color: #E5E5E5;
+    display: flex;
+}
+
+aside {
+    background-color: aquamarine;
+}
+
+.aside-menu {
+    /* background-color: wheat; */
+    position: absolute;
+    width: 228px;
+    height: 246px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.tools {
+    left: 31px;
+    top: 129px;
+}
+
+.palette {
+    left: 29px;
+    top: 465px;
+}
+
+.aside-menu ul {
+    list-style-type: none;
+    position: absolute;
+    right: 15px;
+    width: 196px;
+    height: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.541327);
+}
+
+.aside-menu ul li {
+    width: 196px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.aside-menu ul li:hover {
+    background-color: rgba(231, 224, 218, 0.658);
+}
+
+.aside-menu ul li:nth-child(2) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.541327);;
+}
+
+.aside-menu i {
+    margin-right: 10px; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.palette-circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.palette-circle.current {
+    background-color: gray;
+}
+
+div.palette-circle.prev {
+    background-color: green;
+}
+
+.palette-circle.red {
+    background-color: red;
+}
+
+.palette-circle.blue {
+    background-color: blue;
+}
+
+.canvas {
+    position: relative;
+}
+
+canvas {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    right: 0;
+    top: 50px;
+    border: 2px solid rgb(75, 69, 69);
+}
