@@ -53,11 +53,11 @@ main {
 }
 
 aside {
-    background-color: aquamarine;
+    background-color: rgb(165, 127, 255);
 }
 
 .aside-menu {
-    /* background-color: wheat; */
+    /* background-color: wheat;  */
     position: absolute;
     width: 228px;
     height: 246px;
@@ -72,6 +72,14 @@ aside {
 .palette {
     left: 29px;
     top: 465px;
+}
+
+.mediator {
+    right: 31px;
+    top: 129px; 
+}
+.mediator li {
+    text-align: center;
 }
 
 .aside-menu ul {
@@ -137,6 +145,8 @@ div.palette-circle.prev {
 
 .canvas {
     position: relative;
+    left: 250px;
+    background-color: blue;
 }
 
 canvas {
