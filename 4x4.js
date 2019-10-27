@@ -1,12 +1,7 @@
-const canvas = document.getElementsById('canvas');
+const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-ctx.fillStyle = 'green';
-ctx.fillRect(10, 10, 150, 100);
+let numbers = "[0, 1, 2, 3]";
 
-// [
-//     ["00BCD4", "FFEB3B","FFEB3B","00BCD4"],
-//     ["FFEB3B", "FFC107","FFC107","FFEB3B"],
-//     ["FFEB3B", "FFC107","FFC107","FFEB3B"],
-//     ["00BCD4", "FFEB3B","FFEB3B","00BCD4"]
-// ]
+numbers = JSON.parse(numbers);
+
